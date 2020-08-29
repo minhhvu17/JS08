@@ -51,6 +51,7 @@ header{
     transition: all 0.3s ease 0s;
     background-color: #222326;
     cursor: pointer;
+    text-decoration: none;
 }
 #nav_category li a:hover{
     color: #ffc20e;
@@ -89,7 +90,7 @@ header{
     border: none;
     background-color: #ffc20e;
     color: #222326;
-    width: 200px;
+    width: 300px;
 }
 #bar::placeholder {
     color: #222326;
@@ -142,6 +143,7 @@ header{
 
 #slogan:hover{
     opacity: 1;
+    transition: 0.5s;
 }
 #background-container a{
     font-family: 'Poppins', sans-serif;
@@ -158,10 +160,10 @@ header{
     font-size: 16px;
     font-weight: bold;
 }
-/* #background-container a span {
+ /* #animateBtn {
     position: absolute;
     background: #fff;
-    transform: translate(-50%, -50%);
+    transform: translate(-62%, -50%);
     pointer-events: none;
     border-radius: 50%;
     animation: animate 1s linear infinite;
@@ -173,8 +175,8 @@ header{
 
     }
     100%{
-        width: 50px;
-        height: 50px;
+        width: 36px;
+        height: 36px;
     }
 } */
 
@@ -209,10 +211,15 @@ header{
 .title{
     border-bottom: solid 1px;
     border-color: #ffc20e;
-    width: 215px;
+    width: max-content;
     font-size: 26px;
     margin-bottom: 20px;
     margin-top: 30px;
+    
+    
+}
+#title-icon {
+    max-width: 20px;
     
 }
 
@@ -226,7 +233,12 @@ header{
     overflow: hidden;
     background-color: transparent;
 }
-
+#each-slider{
+    display: flex;
+}
+#each-slider2{
+    display: flex;
+}
 .slider-panel{
     transform: translate3d(0px, 0px, 0px);
     display: flex;
@@ -247,7 +259,7 @@ header{
 
 .each-slider-title{
     width: 18%;
-    padding-bottom: 78px;
+    padding-bottom: 50px;
     padding-right: 13px;
     position: relative;
     background-color: transparent;
@@ -265,18 +277,18 @@ header{
     border-radius: 4px;
     cursor: pointer;
     padding-bottom: 6px;
-    /* box-shadow: 0 10px 15px #F3F781; */
-    /* transition: all ease 0.4s; */
+    
+    
 }
-.each-slider-img:hover{
-    border: 2px solid #ffc20e;
+/* .each-slider-img:hover{
+    border: 1px solid #ffc20e;
     opacity: 0.8;
     transition: 0.2s;
-    transform: scale(0.98) translateY(5px) translateX(5px);
-}
+     
+}*/
 
 .song-title{
-    font-size: 14px;
+    font-size: 10px;
     font-weight: bold;
     margin-top:5px;
     cursor: pointer;
@@ -294,4 +306,78 @@ header{
     margin-top: 30px;
     border-left: 1px solid #ffc20e;
     padding-left: 10px;
+}
+.artist-contain{
+    
+}
+.artist-contain ul {
+    list-style: none;
+    padding: 0;
+    
+}
+.artist-contain li {
+    height: 50px;
+    display: flex;
+}
+.artistImg{
+    max-height: 50px;
+    width: auto;
+    border-radius: 100%;
+}
+.artistContent{
+    padding-left:10px ;
+    width: 320px;
+}
+.follow{
+    display: flex;
+    padding-top: 13px;
+}
+#followBtn{
+    float: right;
+}
+
+
+
+
+footer{
+    clear: both;
+    
+    height: 200px;
+    margin-top: -200px;
+    background-color: #222326;
+    color: #fff;
+    border-top: 2px solid #FFA500;
+}
+
+.footerColumn{
+    float: left;
+    padding: 10px;
+    padding-right: 80px;
+    padding-top: 12px ;
+}
+.footerColumn.left-content-footer{
+    width: 20%;
+    padding-left: 50px;
+    
+}
+.footerColumn.middle-content-footer{
+    width: 33%;
+}
+.footerColumn.right-content-footer{
+    width: 20%;
+}
+
+#footerCate{
+    color: #FFA500;
+    font-size: 20px;
+}
+
+#emailBar{
+    border-radius: 5px;
+    background-color: #FFA500;
+    border: none;
+    height: 22px;
+    margin-top: 5px;
+    width: 210px;
+    
 }

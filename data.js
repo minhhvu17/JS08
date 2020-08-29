@@ -1,8 +1,8 @@
 const DATA = [
     {
-        ids: 1,
+        ids: 0,
         artist: 'Ngọt',
-        artistImage: '',
+        artistImage: 'pj-img/artists/ngot.jpg',
         description: 'Ngọt là nghệ sĩ trẻ 9X hoạt động âm nhạc độc lập (indie) nhiều năm qua giữa Hà Nội với 4 thành viên: Vũ Đinh Trọng Thắng, Nguyễn Hùng Nam Anh, Trần Bình Tuấn và Phan Việt Hoàng. Họ là một ban nhạc “đơn giản” với một trống, một guitar, một bass và một vocal (ca sĩ).',
         song : [
             {
@@ -57,9 +57,9 @@ const DATA = [
 
     },
     {
-        ids: 2,
+        ids: 1,
         artist: 'Vũ.',
-        artistImage: '',
+        artistImage: 'pj-img/artists/vu.jpg',
         description: 'Vũ, được viết cách điệu là Vũ. (tên đầy đủ là Hoàng Thái Vũ, sinh ngày 3 tháng 10 năm 1995 tại Hà Nội) là ca sĩ kiêm sáng tác nhạc người Việt Nam. Sinh ra trong gia đình có bố là quân nhân và mẹ là giáo viên, Vũ thường đăng tải các sáng tác của mình trên Soundcloud. Thể loại của anh theo đuổi là nhạc indie pop, acoustic, rock.Trước khi đi hát, Vũ từng gia nhập quân ngũ và làm giảng viên tiếng Anh tại một trường quân sự. Đây cũng chính là khoảng thời gian anh sáng tác.',
         song : [
             {
@@ -102,10 +102,10 @@ const DATA = [
 
     },
     {
-        ids: 3,
+        ids: 2,
         artist: 'Hoàng Dũng',
-        artistImage: '',
-        description: '',
+        artistImage: 'hoangdung.jpg',
+        description: 'Nguyễn Hoàng Dũng, hay còn được biết đến với nghệ danh Hoàng Dũng (sinh ngày 04/11/1995) là một nam ca sĩ, nhạc sĩ tại Việt Nam, anh từng đạt danh hiệu Á Quân cuộc thi Giọng Hát Việt năm 2015 và lọt top 10 Bài hát hay nhất năm 2016. Với lối tư duy văn minh trong âm nhạc, khả năng sáng tác và giọng hát nội lực, Hoàng Dũng được đánh giá là một nghệ sỹ tiềm năng và đang dần khẳng định phong cách cũng như vị trí của mình trong lớp nghệ sỹ trẻ tại Việt Nam.',
         song : [
             {
                 songName: 'Yếu đuối',
@@ -159,9 +159,9 @@ const DATA = [
 
     },
     {
-        ids: 4,
+        ids: 3,
         artist: 'Thịnh Suy',
-        artistImage: '',
+        artistImage: 'thinhsuy.jpg',
         description: '',
         song : [
             {
@@ -197,9 +197,9 @@ const DATA = [
         ]
     },
     {
-        ids: 5,
+        ids: 4,
         artist: 'Nger',
-        artistImage: '',
+        artistImage: 'nger.jpg',
         description: '',
         song : [
             {
@@ -247,9 +247,9 @@ const DATA = [
         ]
     },
     {
-        ids: 6,
+        ids: 5,
         artist: 'Hải Sâm',
-        artistImage: '',
+        artistImage: 'haisam.jpg',
         description: '',
         song : [
             {

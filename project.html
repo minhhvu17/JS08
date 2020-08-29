@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="" type="image/x-icon">
+
     <!-- font -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -15,6 +16,9 @@
     <script src="jquery-3.5.1.min.js"></script>
     <script src="data.js" defer></script>
     <script src="script.js" defer></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -23,7 +27,7 @@
             <a href="" id="logo"><img src="pj-img\img-logo.png" alt=""></a>
             <ul id="nav_category">
 
-                <li><a id="homepage">Trang chủ</a></li>
+                <li><a href="project.html" id="homepage">Trang chủ</a></li>
                 <li><a>Chủ đề</a></li>
                 <li><a>Nhạc sĩ</a></li>
                 <li><a>Top 20</a></li>
@@ -31,7 +35,7 @@
             <div id="searchBar-container">
                 <div id="searchBar">
                     <input type="text" placeholder="Tìm kiếm..." value="" id="bar">
-                    <span><img src=" pj-img\findbutton.png" alt="" id="searchBtn"></span>
+                    <span style="margin-left: 10px"><img src=" pj-img\findbutton.png" alt="" id="searchBtn"></span>
                 </div>
             </div>
         </div>
@@ -55,7 +59,14 @@
                 <div class="title">Đề xuất cho bạn</div>
                 <div class="slide">
                     <div class="slider">
-                        <div id="each-slider">
+                        <div style="border-bottom: 1px solid #ffc20e" id="each-slider">
+                        </div>
+                    </div>
+                </div>
+                <div class="title">Hit của tuần<span><img id="title-icon" src="pj-img/fire.png" alt=""></span></div>
+                <div class="slide">
+                    <div class="slider">
+                        <div id="each-slider2">
                         </div>
                     </div>
                 </div>
@@ -63,12 +74,55 @@
         </div>
         <div class="column right-content-container">
             <div id="right-content">
-                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nemo, quasi iure odit impedit at! Doloremque, neque molestiae quae nesciunt velit illum. Ad eligendi nostrum harum? Nam incidunt optio minima!</div>
+                <div class="title">Ca sĩ nổi bật</div>
+                <div class="artist-contain">
+                    <ul>
+                        <li>
+                            <div><img class="artistImg" src="pj-img/artists/ngot.jpg" alt=""></div>
+                            <div class="artistContent">
+                                <div>Ngọt</div>
+                                <div class="follow">
+                                    <div>5</div>
+                                    <div id="followBtn"><button>Theo dõi</button></div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
 
+    <footer>
 
+        <div class="footerColumn left-content-footer">
+            <a href=""><img src="pj-img/img-logo.png" alt=""></a>
+            <div id="slogan" style="font-size: 10px !important; color: #ffc20e !important;">Điểm hẹn dành cho những
+                người yêu âm nhạc</div>
+        </div>
+        <div class="footerColumn middle-content-footer">
+            <div id="footerCate">Về chúng tôi</div>
+            <div style="font-size: 13px;">Chúng tôi muốn mang đến mọi người dòng nhạc Indie - một màu sắc âm nhạc
+                mới lạ, không phổ biến nhưng dễ dàng chạm tới cảm xúc người nghe</div>
+            <div id="footerCate" style="margin-top:20px">Liên hệ với chúng tôi</div>
+            <div><svg style="color:#FFA500" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone-fill"
+                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z" />
+                </svg><span style="margin-left:5px">0123 456 789</span></div>
+            <div><img style="max-width:16px;" src="pj-img/email.png" alt=""><span
+                    style="margin-left:5px; font-size: 13px;">ngxuanminhvu17@gmail.com</span></div>
+        </div>
+
+        <div class="footerColumn right-content-footer">
+            <div id="footerCate">Cần thêm thông tin?</div>
+            <div style="font-size: 13px;">Nhập email bạn tại đây</div>
+            <input type="text" id="emailBar"><span><img style="max-width: 16px" src="pj-img/email-black.png"
+                    alt=""></span>
+        </div>
+
+
+    </footer>
 
 </body>
 
