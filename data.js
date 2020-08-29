@@ -104,7 +104,7 @@ const DATA = [
     {
         ids: 2,
         artist: 'Hoàng Dũng',
-        artistImage: 'hoangdung.jpg',
+        artistImage: 'pj-img/artists/hoangdung.jpg',
         description: 'Nguyễn Hoàng Dũng, hay còn được biết đến với nghệ danh Hoàng Dũng (sinh ngày 04/11/1995) là một nam ca sĩ, nhạc sĩ tại Việt Nam, anh từng đạt danh hiệu Á Quân cuộc thi Giọng Hát Việt năm 2015 và lọt top 10 Bài hát hay nhất năm 2016. Với lối tư duy văn minh trong âm nhạc, khả năng sáng tác và giọng hát nội lực, Hoàng Dũng được đánh giá là một nghệ sỹ tiềm năng và đang dần khẳng định phong cách cũng như vị trí của mình trong lớp nghệ sỹ trẻ tại Việt Nam.',
         song : [
             {
@@ -161,7 +161,7 @@ const DATA = [
     {
         ids: 3,
         artist: 'Thịnh Suy',
-        artistImage: 'thinhsuy.jpg',
+        artistImage: 'pj-img/artists/thinhsuy.jpg',
         description: '',
         song : [
             {
@@ -199,7 +199,7 @@ const DATA = [
     {
         ids: 4,
         artist: 'Nger',
-        artistImage: 'nger.jpg',
+        artistImage: 'pj-img/artists/nger.jpg',
         description: '',
         song : [
             {
@@ -249,7 +249,7 @@ const DATA = [
     {
         ids: 5,
         artist: 'Hải Sâm',
-        artistImage: 'haisam.jpg',
+        artistImage: 'pj-img/artists/haisam.jpg',
         description: '',
         song : [
             {
@@ -288,7 +288,7 @@ const DATA = [
     // {
     //     ids: 7,
     //     artist: '',
-    //     artistImage: '',
+    //     artistImage: 'pj-img/artists/',
     //     description: '',
     //     song : [
     //         {

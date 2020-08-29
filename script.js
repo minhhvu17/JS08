@@ -1,11 +1,12 @@
 let content = document.getElementById('each-slider');
 let content2 = document.getElementById('each-slider2');
+let content3 = document.getElementById('artistList')
 // De xuat cho ban 
 for (let i = 0; i < 5; i++) {
     let randomArtist = Math.floor(Math.random() * DATA.length);
     // console.log(randomArtist);
     let random = Math.floor(Math.random() * DATA[randomArtist].song.length);
-    
+
     var ngheSi = DATA[randomArtist].artist;
     var baiHat = DATA[randomArtist].song[random].songName;
     var anhBaiHat = DATA[randomArtist].song[random].songImage;
@@ -39,7 +40,7 @@ hitArtist.push(DATA[4].artist);
 hitArtist.push(DATA[1].artist);
 hitArtist.push(DATA[5].artist);
 
-for (let i = 0; i<5; i++){
+for (let i = 0; i < 5; i++) {
     var characterHTML = `
     <div class="each-slider-title">
         <div class="each-slider-img" style="background-image: url('${hitList[i].songImage}')">
@@ -57,5 +58,22 @@ for (let i = 0; i<5; i++){
 
 
 // Ca sĩ nổi bật
-
+for (let i = 0; i < 10; i++) {
+    var artistOdd = DATA[i].artist;
+    var trackNumber = DATA[i].song.length;
+    var artistImg = DATA[i].artistImage;
+    var characterHTML = `
+    <li>
+        <div><img class="artistImg" src="${artistImg}" alt=""></div>
+        <div class="artistContent">
+            <div style="cursor:pointer">${artistOdd}</div>
+            <div class="follow">
+                <div class="trackNum">${trackNumber}<span><img src="pj-img/record.png" alt=""></span></div>
+                <div id="followBtn"><button>Theo dõi</button></div>
+            </div>
+        </div>
+    </li>
+    `;
+    content3.insertAdjacentHTML('beforeend', characterHTML);
+}
 

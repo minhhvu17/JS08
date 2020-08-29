@@ -307,9 +307,7 @@ header{
     border-left: 1px solid #ffc20e;
     padding-left: 10px;
 }
-.artist-contain{
-    
-}
+
 .artist-contain ul {
     list-style: none;
     padding: 0;
@@ -318,19 +316,30 @@ header{
 .artist-contain li {
     height: 50px;
     display: flex;
+    margin-bottom: 10px;
 }
 .artistImg{
-    max-height: 50px;
+    max-height: 45px;
     width: auto;
     border-radius: 100%;
+    cursor: pointer;
 }
 .artistContent{
     padding-left:10px ;
-    width: 320px;
+    width: 310px;
 }
 .follow{
     display: flex;
-    padding-top: 13px;
+    padding-top: 5px;
+    justify-content: space-between;
+}
+.trackNum{
+    font-size: 13px;
+}
+.follow img{
+    max-height: 20px;
+    width: auto;
+    margin-bottom: -5px;
 }
 #followBtn{
     float: right;
