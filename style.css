@@ -127,7 +127,7 @@ header{
 #logo-name{
     color: #fff;
     font-size: 60px;
-    margin-top: 230px;
+    margin-top: 250px;
     font-family: 'Anke', sans-serif;
     font-size: 68px;
     margin-bottom: -10px;
@@ -343,6 +343,22 @@ header{
 }
 #followBtn{
     float: right;
+}
+#followBtn button{
+    border-radius: 5px;
+    border: 2px solid #ffc20e;
+    text-decoration: none;
+    color: #222326;
+    background-color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    font-style: italic;
+}
+#followBtn button:hover{
+    border: 2px solid #222326;
+    color: #fff;
+    background-color: #ffc20e;
+    transition: 0.2s;
 }
 
 

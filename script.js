@@ -58,7 +58,7 @@ for (let i = 0; i < 5; i++) {
 
 
 // Ca sĩ nổi bật
-for (let i = 0; i < 10; i++) {
+for (let i = 0; i < 4; i++) {
     var artistOdd = DATA[i].artist;
     var trackNumber = DATA[i].song.length;
     var artistImg = DATA[i].artistImage;
