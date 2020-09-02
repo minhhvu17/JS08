@@ -4,7 +4,7 @@ const DATA = [
         artist: 'Ngọt',
         artistImage: 'pj-img/artists/ngot.jpg',
         description: 'Ngọt là nghệ sĩ trẻ 9X hoạt động âm nhạc độc lập (indie) nhiều năm qua giữa Hà Nội với 4 thành viên: Vũ Đinh Trọng Thắng, Nguyễn Hùng Nam Anh, Trần Bình Tuấn và Phan Việt Hoàng. Họ là một ban nhạc “đơn giản” với một trống, một guitar, một bass và một vocal (ca sĩ).',
-        song : [
+        song: [
             {
                 songName: 'Cho tôi lang thang',
                 songImage: 'pj-img/songIMG/Ngot/cho_toi_lang_thang.jpg',
@@ -61,7 +61,7 @@ const DATA = [
         artist: 'Vũ.',
         artistImage: 'pj-img/artists/vu.jpg',
         description: 'Vũ, được viết cách điệu là Vũ. (tên đầy đủ là Hoàng Thái Vũ, sinh ngày 3 tháng 10 năm 1995 tại Hà Nội) là ca sĩ kiêm sáng tác nhạc người Việt Nam. Sinh ra trong gia đình có bố là quân nhân và mẹ là giáo viên, Vũ thường đăng tải các sáng tác của mình trên Soundcloud. Thể loại của anh theo đuổi là nhạc indie pop, acoustic, rock.Trước khi đi hát, Vũ từng gia nhập quân ngũ và làm giảng viên tiếng Anh tại một trường quân sự. Đây cũng chính là khoảng thời gian anh sáng tác.',
-        song : [
+        song: [
             {
                 songName: 'Lạ lùng',
                 songImage: 'pj-img/songIMG/Vu/la_lung.jpg',
@@ -103,10 +103,99 @@ const DATA = [
     },
     {
         ids: 2,
+        artist: 'Nger',
+        artistImage: 'pj-img/artists/nger.jpg',
+        description: '',
+        song: [
+            {
+                songName: 'Anh đã quen ở bên cạnh em',
+                songImage: 'pj-img/songIMG/Nger/anh_da_quen_o_ben_canh_em.jpg',
+                releaseYear: '',
+                audio: '',
+            },
+            {
+                songName: 'Nói',
+                songImage: 'pj-img/songIMG/Nger/noi.jpg',
+                releaseYear: '',
+                audio: '',
+            },
+            {
+                songName: 'Iêu iem qua dòng tin nhắn',
+                songImage: 'pj-img/songIMG/Nger/yeu_em_qua_dong_tin_nhan.jpg',
+                releaseYear: '',
+                audio: '',
+            },
+            {
+                songName: 'Muốn em là của riêng mình',
+                songImage: 'pj-img/songIMG/Nger/muon_em_la_cua_rieng_minh.jpg',
+                releaseYear: '',
+                audio: '',
+            },
+            {
+                songName: 'Vương',
+                songImage: 'pj-img/songIMG/Nger/vuong.jpg',
+                releaseYear: '',
+                audio: '',
+            },
+            {
+                songName: 'Anh biết',
+                songImage: 'pj-img/songIMG/Nger/anh_biet.jpg',
+                releaseYear: '',
+                audio: '',
+            },
+            {
+                songName: 'Tình đắng như ly cà phê',
+                songImage: 'pj-img/songIMG/Nger/tinh_dang_nhu_ly_ca_phe.jpg',
+                releaseYear: '',
+                audio: '',
+            },
+        ]
+    },
+
+    {
+        ids: 3,
+        artist: 'Thịnh Suy',
+        artistImage: 'pj-img/artists/thinhsuy.jpg',
+        description: '',
+        song: [
+            {
+                songName: 'Một đêm say',
+                songImage: 'pj-img/songIMG/Thinh_Suy/mot_dem_say.jpg',
+                releaseYear: '',
+                audio: '',
+            },
+            {
+                songName: 'Chuyện rằng',
+                songImage: 'pj-img/songIMG/Thinh_Suy/chuyen_rang.jpg',
+                releaseYear: '',
+                audio: '',
+            },
+            {
+                songName: 'Thắc mắc',
+                songImage: 'pj-img/songIMG/Thinh_Suy/thac_mac.jpg',
+                releaseYear: '',
+                audio: '',
+            },
+            {
+                songName: 'Mai mình xa',
+                songImage: 'pj-img/songIMG/Thinh_Suy/mai_minh_xa.jpg',
+                releaseYear: '',
+                audio: '',
+            },
+            {
+                songName: 'Nghe em',
+                songImage: 'pj-img/songIMG/Thinh_Suy/nghe_em.jpg',
+                releaseYear: '',
+                audio: '',
+            },
+        ]
+    },
+    {
+        ids: 4,
         artist: 'Hoàng Dũng',
         artistImage: 'pj-img/artists/hoangdung.jpg',
         description: 'Nguyễn Hoàng Dũng, hay còn được biết đến với nghệ danh Hoàng Dũng (sinh ngày 04/11/1995) là một nam ca sĩ, nhạc sĩ tại Việt Nam, anh từng đạt danh hiệu Á Quân cuộc thi Giọng Hát Việt năm 2015 và lọt top 10 Bài hát hay nhất năm 2016. Với lối tư duy văn minh trong âm nhạc, khả năng sáng tác và giọng hát nội lực, Hoàng Dũng được đánh giá là một nghệ sỹ tiềm năng và đang dần khẳng định phong cách cũng như vị trí của mình trong lớp nghệ sỹ trẻ tại Việt Nam.',
-        song : [
+        song: [
             {
                 songName: 'Yếu đuối',
                 songImage: 'pj-img/songIMG/Hoang_Dung/yeu_duoi.jpg',
@@ -159,99 +248,11 @@ const DATA = [
 
     },
     {
-        ids: 3,
-        artist: 'Thịnh Suy',
-        artistImage: 'pj-img/artists/thinhsuy.jpg',
-        description: '',
-        song : [
-            {
-                songName: 'Một đêm say',
-                songImage: 'pj-img/songIMG/Thinh_Suy/mot_dem_say.jpg',
-                releaseYear: '',
-                audio: '',
-            },
-            {
-                songName: 'Chuyện rằng',
-                songImage: 'pj-img/songIMG/Thinh_Suy/chuyen_rang.jpg',
-                releaseYear: '',
-                audio: '',
-            },
-            {
-                songName: 'Thắc mắc',
-                songImage: 'pj-img/songIMG/Thinh_Suy/thac_mac.jpg',
-                releaseYear: '',
-                audio: '',
-            },
-            {
-                songName: 'Mai mình xa',
-                songImage: 'pj-img/songIMG/Thinh_Suy/mai_minh_xa.jpg',
-                releaseYear: '',
-                audio: '',
-            },
-            {
-                songName: 'Nghe em',
-                songImage: 'pj-img/songIMG/Thinh_Suy/nghe_em.jpg',
-                releaseYear: '',
-                audio: '',
-            },
-        ]
-    },
-    {
-        ids: 4,
-        artist: 'Nger',
-        artistImage: 'pj-img/artists/nger.jpg',
-        description: '',
-        song : [
-            {
-                songName: 'Anh đã quen ở bên cạnh em',
-                songImage: 'pj-img/songIMG/Nger/anh_da_quen_o_ben_canh_em.jpg',
-                releaseYear: '',
-                audio: '',
-            },
-            {
-                songName: 'Nói',
-                songImage: 'pj-img/songIMG/Nger/noi.jpg',
-                releaseYear: '',
-                audio: '',
-            },
-            {
-                songName: 'Iêu iem qua dòng tin nhắn',
-                songImage: 'pj-img/songIMG/Nger/yeu_em_qua_dong_tin_nhan.jpg',
-                releaseYear: '',
-                audio: '',
-            },
-            {
-                songName: 'Muốn em là của riêng mình',
-                songImage: 'pj-img/songIMG/Nger/muon_em_la_cua_rieng_minh.jpg',
-                releaseYear: '',
-                audio: '',
-            },
-            {
-                songName: 'Vương',
-                songImage: 'pj-img/songIMG/Nger/vuong.jpg',
-                releaseYear: '',
-                audio: '',
-            },
-            {
-                songName: 'Anh biết',
-                songImage: 'pj-img/songIMG/Nger/anh_biet.jpg',
-                releaseYear: '',
-                audio: '',
-            },
-            {
-                songName: 'Tình đắng như ly cà phê',
-                songImage: 'pj-img/songIMG/Nger/tinh_dang_nhu_ly_ca_phe.jpg',
-                releaseYear: '',
-                audio: '',
-            },
-        ]
-    },
-    {
         ids: 5,
         artist: 'Hải Sâm',
         artistImage: 'pj-img/artists/haisam.jpg',
         description: '',
-        song : [
+        song: [
             {
                 songName: 'Thế thôi',
                 songImage: 'pj-img/songIMG/Hai_Sam/the_thoi.jpg',
@@ -286,7 +287,7 @@ const DATA = [
 
     },
     // {
-    //     ids: 7,
+    //     ids: 6,
     //     artist: '',
     //     artistImage: 'pj-img/artists/',
     //     description: '',

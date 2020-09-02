@@ -15,6 +15,11 @@ body {
     font-family: 'Montserrat', sans-serif;
 
 }
+input {
+    border: unset;
+    outline: none;
+    
+}
 
 header{
     display: flex;
@@ -274,19 +279,48 @@ header{
     background-size: cover;
     background-position: center;
     overflow: hidden;
-    border-radius: 4px;
-    cursor: pointer;
+    border-radius: 6px;
+    border: 2px solid #fff;
     padding-bottom: 6px;
+}
+.playable{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ffc20e;
+    bottom: 50%;
+    right: 50%;
+    margin: 0 -20px -25px 0;
+    position: absolute;
+    border-radius: 50%;
+    text-shadow: 0 1px 1px rgba(0,0,0,.2);
+    box-shadow: 0 1px 1px rgba(0,0,0,.2);
+    background: rgba(0,0,0,.2);
+    transition: all .1s ease;
+    opacity: 0;
     
+    cursor: pointer;
+}
+
+.playable svg{
+    position: absolute;
+    top: 1px;
+    left: 4px;
+    height: 36px;
+    width: 36px;
     
 }
-/* .each-slider-img:hover{
-    border: 1px solid #ffc20e;
-    opacity: 0.8;
-    transition: 0.2s;
-     
-}*/
 
+.playable path{
+    fill: #ffc20e;
+}
+.each-slider-img:hover .playable{
+    opacity: 1;
+    transition: opacity .1s,visibility .1s;
+}
+.each-slider-img:hover{
+    opacity: 0.9;
+    border: 2px solid #ffc20e;
+}
 .song-title{
     font-size: 10px;
     font-weight: bold;
@@ -361,6 +395,9 @@ header{
     transition: 0.2s;
 }
 
+/* #followBtn button span img:hover{
+    
+} */
 
 
 
@@ -405,4 +442,194 @@ footer{
     margin-top: 5px;
     width: 210px;
     
+}
+
+
+
+#player{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    z-index: 99;
+    overflow: visible;
+    width: 100%;
+    box-shadow: none;
+    height: 50px;
+}
+.player-body{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    z-index: 99;
+    background: #fff;
+    transition: all .3s ease;
+}
+
+.player-img{
+    position: relative;
+    float: left;
+    height: 66px;
+    width: 66px;
+    background-size: cover;
+    background-position: 50%;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.player-play-btn{
+    width: 26px;
+    height: 26px;
+    border: 2px solid #ffc20e;
+    bottom: 50%;
+    right: 50%;
+    margin: 0 -15px -15px 0;
+    position: absolute;
+    border-radius: 50%;
+    opacity: .8;
+    text-shadow: 0 1px 1px rgba(0,0,0,.2);
+    box-shadow: 0 1px 1px rgba(0,0,0,.2);
+    background: rgba(0,0,0,.2);
+    transition: all .1s ease;
+}
+
+.player-play-btn svg{
+    position: absolute;
+    top: 3px;
+    left: 4px;
+    height: 20px;
+    width: 20px;
+}
+
+.player-play-btn path{
+    fill: #ffc20e;
+}
+
+.player-info{
+    border-top: 2px solid #ffc20e;
+}
+
+.player-title{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 5px 0 20px 8px;
+    cursor: default;
+    padding-bottom: 2px;
+}
+
+.player-songName{
+    font-size: 14px;
+    margin-left: 10px;
+}
+.player-artist{
+    font-size: 12px;
+    color: #666;
+}
+.player-control{
+    position: relative;
+    display: flex; 
+    padding-right: 5px;
+}
+.player-bar-contain{
+    margin: 0 0 0 5px;
+    padding-left: 4px;
+    cursor: pointer!important;
+    flex: 1;
+}
+.player-bar{
+    position: relative;
+    height: 2px;
+    width: 100%;
+    background: #cdcdcd;
+}
+.player-load{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: #aaa;
+    height: 2px;
+    transition: all .5s ease;
+}
+.player-played{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 2px;
+}
+.player-timer{
+    position: relative;
+    right: 0;
+    bottom: 4px;
+    height: 17px;
+    color: #999;
+    font-size: 11px;
+    padding-left: 7px;
+}
+.player-timer-inner{
+    vertical-align: middle;
+}
+.player-back-icon{
+    cursor: pointer;
+    transition: all .2s ease;
+    right: 75px;
+    position: absolute;
+    bottom: 27px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    opacity: .8;
+    vertical-align: middle;
+    padding: 0;
+    font-size: 12px;
+    margin: 0;
+    display: inline-block;
+}
+.player-play-icon{
+    position: absolute;
+    bottom: 27px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    transition: all .2s ease;
+    right: 50px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    opacity: .8;
+    vertical-align: middle;
+    padding: 0;
+    font-size: 12px;
+    margin: 0;
+    display: inline-block;
+    max-height: 20px;
+    
+}
+.player-forward-icon{
+    cursor: pointer;
+    transition: all .2s ease;
+    right: 25px;
+    position: absolute;
+    bottom: 27px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    opacity: .8;
+    vertical-align: middle;
+    padding: 0;
+    font-size: 12px;
+    margin: 0;
+    display: inline-block;
+    transform: scaleX(-1);
 }
