@@ -8,49 +8,49 @@ const DATA = [
             {
                 songName: 'Cho tôi lang thang',
                 songImage: 'pj-img/songIMG/Ngot/cho_toi_lang_thang.jpg',
-                releaseYear: '',
+
                 audio: 'audio/Ngot/cho_toi_lang_thang.mp3',
             },
             {
                 songName: 'Em dạo này',
                 songImage: 'pj-img/songIMG/Ngot/em_dao_nay.jpg',
-                releaseYear: '',
+
                 audio: 'audio/Ngot/em_dao_nay.mp3',
             },
             {
                 songName: 'Xanh',
                 songImage: 'pj-img/songIMG/Ngot/xanh.jpg',
-                releaseYear: '',
+
                 audio: 'audio/Ngot/xanh.mp3',
             },
             {
                 songName: 'Lần cuối',
                 songImage: 'pj-img/songIMG/Ngot/lan_cuoi.jpg',
-                releaseYear: '',
+
                 audio: 'audio/Ngot/lan_cuoi.mp3',
             },
             {
                 songName: 'Chuyển kênh',
                 songImage: 'pj-img/songIMG/Ngot/chuyen_kenh.jpg',
-                releaseYear: '',
+
                 audio: 'audio/Ngot/chuyen_kenh.mp3',
             },
             {
                 songName: 'Hết thời',
                 songImage: 'pj-img/songIMG/Ngot/het_thoi.jpg',
-                releaseYear: '',
+
                 audio: 'audio/Ngot/het_thoi.mp3',
             },
             {
                 songName: 'Tìm người nhà',
                 songImage: 'pj-img/songIMG/Ngot/tim_nguoi_nha.jpg',
-                releaseYear: '',
+
                 audio: 'audio/Ngot/tim_nguoi_nha.mp3',
             },
             {
                 songName: 'Cho tôi đi theo',
                 songImage: 'pj-img/songIMG/Ngot/cho_toi_di_theo.jpg',
-                releaseYear: '',
+
                 audio: 'audio/Ngot/cho_toi_di_theo.mp3',
             },
         ]
@@ -65,37 +65,37 @@ const DATA = [
             {
                 songName: 'Lạ lùng',
                 songImage: 'pj-img/songIMG/Vu/la_lung.jpg',
-                releaseYear: '',
+
                 audio: 'audio/Vu/la_lung.mp3',
             },
             {
                 songName: 'Đông kiếm em',
                 songImage: 'pj-img/songIMG/Vu/dong_kiem_em.jpg',
-                releaseYear: '',
+
                 audio: 'audio/Vu/dong_kiem_em.mp3',
             },
             {
                 songName: 'Mùa mưa ngâu nằm cạnh',
                 songImage: 'pj-img/songIMG/Vu/mua_mua_ngau_nam_canh.jpg',
-                releaseYear: '',
+
                 audio: 'audio/Vu/mua_mua_ngau_nam_canh.mp3',
             },
             {
                 songName: 'Lời yêu em',
                 songImage: 'pj-img/songIMG/Vu/loi_yeu_em.jpg',
-                releaseYear: '',
+
                 audio: 'audio/Vu/loi_yeu_em.mp3',
             },
             {
                 songName: 'Hành tinh song song',
                 songImage: 'pj-img/songIMG/Vu/hanh_tinh_song_song.jpg',
-                releaseYear: '',
+
                 audio: 'audio/Vu/hanh_tinh_song_song.mp3',
             },
             {
                 songName: 'Đợi',
                 songImage: 'pj-img/songIMG/Vu/doi.png',
-                releaseYear: '',
+
                 audio: 'audio/Vu/doi.mp3',
             },
         ]
@@ -110,44 +110,44 @@ const DATA = [
             {
                 songName: 'Anh đã quen ở bên cạnh em',
                 songImage: 'pj-img/songIMG/Nger/anh_da_quen_o_ben_canh_em.jpg',
-                releaseYear: '',
-                audio: '',
+
+                audio: 'audio/Nger/anh_da_quen_o_ben_canh_em.mp3',
             },
             {
                 songName: 'Nói',
                 songImage: 'pj-img/songIMG/Nger/noi.jpg',
-                releaseYear: '',
-                audio: '',
+
+                audio: 'audio/Nger/noi.mp3',
             },
             {
-                songName: 'Iêu iem qua dòng tin nhắn',
+                songName: 'Yêu em qua dòng tin nhắn',
                 songImage: 'pj-img/songIMG/Nger/yeu_em_qua_dong_tin_nhan.jpg',
-                releaseYear: '',
-                audio: '',
+
+                audio: 'audio/Nger/yeu_em_qua_dong_tin_nhan.mp3',
             },
             {
                 songName: 'Muốn em là của riêng mình',
                 songImage: 'pj-img/songIMG/Nger/muon_em_la_cua_rieng_minh.jpg',
-                releaseYear: '',
-                audio: '',
+
+                audio: 'audio/Nger/muon_em_la_cua_rieng_minh.mp3',
             },
             {
                 songName: 'Vương',
                 songImage: 'pj-img/songIMG/Nger/vuong.jpg',
-                releaseYear: '',
-                audio: '',
+
+                audio: 'audio/Nger/vuong.mp3',
             },
             {
                 songName: 'Anh biết',
                 songImage: 'pj-img/songIMG/Nger/anh_biet.jpg',
-                releaseYear: '',
-                audio: '',
+
+                audio: 'audio/Nger/anh_biet.mp3',
             },
             {
                 songName: 'Tình đắng như ly cà phê',
                 songImage: 'pj-img/songIMG/Nger/tinh_dang_nhu_ly_ca_phe.jpg',
-                releaseYear: '',
-                audio: '',
+
+                audio: 'audio/Nger/tinh_dang_nhu_ly_ca_phe.mp3',
             },
         ]
     },
@@ -161,32 +161,32 @@ const DATA = [
             {
                 songName: 'Một đêm say',
                 songImage: 'pj-img/songIMG/Thinh_Suy/mot_dem_say.jpg',
-                releaseYear: '',
-                audio: '',
+
+                audio: 'audio/Thinh_Suy/mot_dem_say.mp3',
             },
             {
                 songName: 'Chuyện rằng',
                 songImage: 'pj-img/songIMG/Thinh_Suy/chuyen_rang.jpg',
-                releaseYear: '',
-                audio: '',
+
+                audio: 'audio/Thinh_Suy/chuyen_rang.mp3',
             },
             {
                 songName: 'Thắc mắc',
                 songImage: 'pj-img/songIMG/Thinh_Suy/thac_mac.jpg',
-                releaseYear: '',
-                audio: '',
+
+                audio: 'audio/Thinh_Suy/thac_mac.mp3',
             },
             {
                 songName: 'Mai mình xa',
                 songImage: 'pj-img/songIMG/Thinh_Suy/mai_minh_xa.jpg',
-                releaseYear: '',
-                audio: '',
+
+                audio: 'audio/Thinh_Suy/mai_minh_xa.mp3',
             },
             {
                 songName: 'Nghe em',
                 songImage: 'pj-img/songIMG/Thinh_Suy/nghe_em.jpg',
-                releaseYear: '',
-                audio: '',
+
+                audio: 'audio/Thinh_Suy/nghe_em.mp3',
             },
         ]
     },
@@ -256,38 +256,155 @@ const DATA = [
             {
                 songName: 'Thế thôi',
                 songImage: 'pj-img/songIMG/Hai_Sam/the_thoi.jpg',
-                releaseYear: '',
-                audio: '',
+
+                audio: 'audio/Hai_Sam/the_thoi.mp3',
             },
             {
-                songName: 'Một điều anh rất ngại nói ra',
-                songImage: 'pj-img/songIMG/Hai_Sam/mot_dieu_anh_rat_ngai_noi_ra.jpg',
-                releaseYear: '',
-                audio: '',
+                songName: 'Một điều mà anh rất ngại nói ra',
+                songImage: 'pj-img/songIMG/Hai_Sam/mot_dieu_ma_anh_rat_ngai_noi_ra.jpg',
+
+                audio: 'audio/Hai_Sam/mot_dieu_ma_anh_rat_ngai_noi_ra.mp3',
             },
             {
                 songName: 'HENNESSY',
                 songImage: 'pj-img/songIMG/Hai_Sam/hennessy.jpg',
-                releaseYear: '',
-                audio: '',
+
+                audio: 'audio/Hai_Sam/hennessy.mp3',
             },
             {
                 songName: 'Em có đợi tin nhắn tôi không',
                 songImage: 'pj-img/songIMG/Hai_Sam/em_co_doi_tin_nhan_toi_khong.jpg',
-                releaseYear: '',
-                audio: '',
+
+                audio: 'audio/Hai_Sam/em_co_doi_tin_nhan_toi_khong.mp3',
             },
             {
                 songName: 'Cuối chiều',
                 songImage: 'pj-img/songIMG/Hai_Sam/cuoi_chieu.jpg',
-                releaseYear: '',
-                audio: '',
+
+                audio: 'audio/Hai_Sam/cuoi_chieu.mp3',
+            },
+        ]
+
+    },
+    {
+        ids: 6,
+        artist: 'Cá Hồi Hoang',
+        artistImage: 'pj-img/artists/cahoihoang.jpg',
+        description: '',
+        song: [
+            {
+                songName: 'Tầng thượng 102',
+                songImage: 'pj-img/songIMG/Ca_Hoi_Hoang/tang_thuong_102.jpg',
+
+                audio: 'audio/Ca_Hoi_Hoang/tang_thuong_102.mp3',
+            },
+            {
+                songName: 'Beertalks',
+                songImage: 'pj-img/songIMG/Ca_Hoi_Hoang/beertalks.jpg',
+
+                audio: 'audio/Ca_Hoi_Hoang/beertalks.mp3',
+            },
+            {
+                songName: '5AM',
+                songImage: 'pj-img/songIMG/Ca_Hoi_Hoang/5am.jfif',
+
+                audio: 'audio/Ca_Hoi_Hoang/5am.mp3',
+            },
+            {
+                songName: 'Điền vào ô trống',
+                songImage: 'pj-img/songIMG/Ca_Hoi_Hoang/dien_vao_o_trong.jpg',
+
+                audio: 'audio/Ca_Hoi_Hoang/dien_vao_o_trong.mp3',
+            },
+            {
+                songName: 'Hiệu ứng trốn chạy',
+                songImage: 'pj-img/songIMG/Ca_Hoi_Hoang/hieu_ung_tron_chay.jfif',
+
+                audio: 'audio/Ca_Hoi_Hoang/hieu_ung_tron_chay.mp3',
+            },
+        ]
+
+    },
+    {
+        ids: 7,
+        artist: 'Pink Frog',
+        artistImage: 'pj-img/artists/pinkfrog.jpg',
+        description: '',
+        song: [
+            {
+                songName: 'Tôi và em',
+                songImage: 'pj-img/songIMG/Pink_Frog/toi_va_em.jpg',
+
+                audio: 'audio/Pink_Frog/toi_va_em.mp3',
+            },
+            {
+                songName: 'Ô cửa',
+                songImage: 'pj-img/songIMG/Pink_Frog/o_cua.jpg',
+
+                audio: 'audio/Pink_Frog/o_cua.mp3',
+            },
+            {
+                songName: 'Câu chuyện',
+                songImage: 'pj-img/songIMG/Pink_Frog/cau_chuyen.jpg',
+
+                audio: 'audio/Pink_Frog/cau_chuyen.mp3',
+            },
+            {
+                songName: 'Nghe',
+                songImage: 'pj-img/songIMG/Pink_Frog/nghe.jpg',
+
+                audio: 'audio/Pink_Frog/nghe.mp3',
+            },
+        ]
+
+    },
+    {
+        ids: 8,
+        artist: 'Kiên',
+        artistImage: 'pj-img/artists/kien.jpg',
+        description: 'Kiên là cậu trai trẻ Hà Thành với một chút phớt đời nhưng lại có tình yêu to lớn với âm nhạc. Đến với âm nhạc của Kiên, người nghe sẽ được lắng nghe những dòng suy nghĩ có khi rất chi đời thường',
+        song: [
+            {
+                songName: 'Con giời',
+                songImage: 'pj-img/songIMG/Kien/con_gioi.jpg',
+
+                audio: 'audio/Kien/con_gioi.mp3',
+            },
+            {
+                songName: 'Em ăn sáng chưa',
+                songImage: 'pj-img/songIMG/Kien/em_an_sang_chua.jpg',
+
+                audio: 'audio/Kien/em_an_sang_chua.mp3',
+            },
+            {
+                songName: 'Hai buổi cà phê',
+                songImage: 'pj-img/songIMG/Kien/hai_buoi_ca_phe.jpg',
+
+                audio: 'audio/Kien/hai_buoi_ca_phe.mp3',
+            },
+            {
+                songName: 'Quả tim màu lửa',
+                songImage: 'pj-img/songIMG/Kien/qua_tim_mau_lua.jpg',
+
+                audio: 'audio/Kien/qua_tim_mau_lua.mp3',
+            },
+            {
+                songName: 'Tại sao?',
+                songImage: 'pj-img/songIMG/Kien/tai_sao.jpg',
+
+                audio: 'audio/Kien/tai_sao.mp3',
+            },
+            {
+                songName: 'Tập thể dục',
+                songImage: 'pj-img/songIMG/Kien/tap_the_duc.jpg',
+
+                audio: 'audio/Kien/tap_the_duc.mp3',
             },
         ]
 
     },
     // {
-    //     ids: 6,
+    //     ids: 9,
     //     artist: '',
     //     artistImage: 'pj-img/artists/',
     //     description: '',
@@ -295,109 +412,31 @@ const DATA = [
     //         {
     //             songName: '',
     //             songImage: '',
-    //             releaseYear: '',
-    //             audio: '',
-    //         },
-    //         {
-    //             songName: '',
-    //             songImage: '',
-    //             releaseYear: '',
-    //             audio: '',
-    //         },
-    //         {
-    //             songName: '',
-    //             songImage: '',
-    //             releaseYear: '',
-    //             audio: '',
-    //         },
-    //         {
-    //             songName: '',
-    //             songImage: '',
-    //             releaseYear: '',
-    //             audio: '',
-    //         },
-    //         {
-    //             songName: '',
-    //             songImage: '',
-    //             releaseYear: '',
-    //             audio: '',
-    //         },
-    //     ]
 
-    // },
-    //     {
-    //     ids: 8,
-    //     artist: '',
-    //     artistImage: '',
-    //     description: '',
-    //     song : [
-    //         {
-    //             songName: '',
-    //             songImage: '',
-    //             releaseYear: '',
     //             audio: '',
     //         },
     //         {
     //             songName: '',
     //             songImage: '',
-    //             releaseYear: '',
-    //             audio: '',
-    //         },
-    //         {
-    //             songName: '',
-    //             songImage: '',
-    //             releaseYear: '',
-    //             audio: '',
-    //         },
-    //         {
-    //             songName: '',
-    //             songImage: '',
-    //             releaseYear: '',
-    //             audio: '',
-    //         },
-    //         {
-    //             songName: '',
-    //             songImage: '',
-    //             releaseYear: '',
-    //             audio: '',
-    //         },
-    //     ]
 
-    // },
-    // {
-    //     ids: 9,
-    //     artist: '',
-    //     artistImage: '',
-    //     description: '',
-    //     song : [
-    //         {
-    //             songName: '',
-    //             songImage: '',
-    //             releaseYear: '',
     //             audio: '',
     //         },
     //         {
     //             songName: '',
     //             songImage: '',
-    //             releaseYear: '',
+
     //             audio: '',
     //         },
     //         {
     //             songName: '',
     //             songImage: '',
-    //             releaseYear: '',
+
     //             audio: '',
     //         },
     //         {
     //             songName: '',
     //             songImage: '',
-    //             releaseYear: '',
-    //             audio: '',
-    //         },
-    //         {
-    //             songName: '',
-    //             songImage: '',
-    //             releaseYear: '',
+
     //             audio: '',
     //         },
     //     ]
@@ -406,37 +445,37 @@ const DATA = [
     // {
     //     ids: 10,
     //     artist: '',
-    //     artistImage: '',
+    //     artistImage: 'pj-img/artists/.jpg',
     //     description: '',
     //     song : [
     //         {
     //             songName: '',
     //             songImage: '',
-    //             releaseYear: '',
+
     //             audio: '',
     //         },
     //         {
     //             songName: '',
     //             songImage: '',
-    //             releaseYear: '',
+
     //             audio: '',
     //         },
     //         {
     //             songName: '',
     //             songImage: '',
-    //             releaseYear: '',
+
     //             audio: '',
     //         },
     //         {
     //             songName: '',
     //             songImage: '',
-    //             releaseYear: '',
+
     //             audio: '',
     //         },
     //         {
     //             songName: '',
     //             songImage: '',
-    //             releaseYear: '',
+
     //             audio: '',
     //         },
     //     ]
@@ -445,76 +484,37 @@ const DATA = [
     // {
     //     ids: 11,
     //     artist: '',
-    //     artistImage: '',
+    //     artistImage: 'pj-img/artists/.jpg',
     //     description: '',
     //     song : [
     //         {
     //             songName: '',
     //             songImage: '',
-    //             releaseYear: '',
-    //             audio: '',
-    //         },
-    //         {
-    //             songName: '',
-    //             songImage: '',
-    //             releaseYear: '',
-    //             audio: '',
-    //         },
-    //         {
-    //             songName: '',
-    //             songImage: '',
-    //             releaseYear: '',
-    //             audio: '',
-    //         },
-    //         {
-    //             songName: '',
-    //             songImage: '',
-    //             releaseYear: '',
-    //             audio: '',
-    //         },
-    //         {
-    //             songName: '',
-    //             songImage: '',
-    //             releaseYear: '',
-    //             audio: '',
-    //         },
-    //     ]
 
-    // },
-    // {
-    //     ids: ,
-    //     artist: '',
-    //     artistImage: '',
-    //     description: '',
-    //     song : [
-    //         {
-    //             songName: '',
-    //             songImage: '',
-    //             releaseYear: '',
     //             audio: '',
     //         },
     //         {
     //             songName: '',
     //             songImage: '',
-    //             releaseYear: '',
+
     //             audio: '',
     //         },
     //         {
     //             songName: '',
     //             songImage: '',
-    //             releaseYear: '',
+
     //             audio: '',
     //         },
     //         {
     //             songName: '',
     //             songImage: '',
-    //             releaseYear: '',
+
     //             audio: '',
     //         },
     //         {
     //             songName: '',
     //             songImage: '',
-    //             releaseYear: '',
+
     //             audio: '',
     //         },
     //     ]

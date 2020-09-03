@@ -15,7 +15,7 @@ for (let i = 0; i < 5; i++) {
     <div class="each-slider-title">
         <div class="each-slider-img" style="background-image: url('${anhBaiHat}')">
             <div class="playable">
-                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 16 31">
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 16 31" class="play-music">
                     <path
                         d="M15.552 15.168q0.448 0.32 0.448 0.832 0 0.448-0.448 0.768l-13.696 8.512q-0.768 0.512-1.312 0.192t-0.544-1.28v-16.448q0-0.96 0.544-1.28t1.312 0.192z">
                     </path>
@@ -23,7 +23,7 @@ for (let i = 0; i < 5; i++) {
             </div>
         </div>
         <div class="song-title">
-            <div style="font-size:15px">${baiHat}</div>
+            <div class="nameSong" style="font-size:15px">${baiHat}</div>
             <div>${ngheSi}</div>
         </div>
     </div>
@@ -52,7 +52,7 @@ for (let i = 0; i < 5; i++) {
     <div class="each-slider-title">
         <div class="each-slider-img" style="background-image: url('${hitList[i].songImage}')">
             <div class="playable">
-                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 16 31">
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 16 31" class="play-music">
                     <path
                         d="M15.552 15.168q0.448 0.32 0.448 0.832 0 0.448-0.448 0.768l-13.696 8.512q-0.768 0.512-1.312 0.192t-0.544-1.28v-16.448q0-0.96 0.544-1.28t1.312 0.192z">
                     </path>
@@ -60,7 +60,7 @@ for (let i = 0; i < 5; i++) {
             </div>
         </div>
         <div class="song-title">
-            <div style="font-size:15px">${hitList[i].songName}</div>
+            <div style="font-size:15px" class="nameSong">${hitList[i].songName}</div>
             <div>${hitArtist[i]}</div>
         </div>
     </div>
@@ -93,3 +93,7 @@ for (let i = 0; i < 4; i++) {
     content3.insertAdjacentHTML('beforeend', characterHTML);
 }
 
+
+// while(true){
+
+// }

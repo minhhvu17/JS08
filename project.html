@@ -14,9 +14,10 @@
     <!-- script -->
     <script src="scroll.js" defer></script>
     <script src="jquery-3.5.1.min.js"></script>
-    <script src="music-play.js" defer></script>
+    
     <script src="data.js" defer></script>
     <script src="script.js" defer></script>
+    <script src="music-play.js" defer></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
@@ -125,7 +126,7 @@
 
     <div id="player">
         <div class="player-body">
-            <div class="player-img" style="background-image: url(pj-img/songIMG/Nger/anh_da_quen_o_ben_canh_em.jpg);">
+            <div class="player-img">
                 <div class="player-play-btn">
                     <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 16 31">
                         <path
@@ -136,8 +137,8 @@
             </div>
             <div class="player-info">
                 <div class="player-title">
-                    <span class="player-songName">Anh đã quen ở bên cạnh em</span>
-                    <span class="player-artist"> - Nger</span>
+                    <span class="player-songName"></span>
+                    <span class="player-artist"></span>
                 </div>
                 <div class="player-control">
                     <div class="player-bar-contain">
@@ -218,7 +219,13 @@
         </div>
     </div>
     </div>
-
+    <!-- <a type="button" ><svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 16 31" class="play-music">
+        <path
+            d="M15.552 15.168q0.448 0.32 0.448 0.832 0 0.448-0.448 0.768l-13.696 8.512q-0.768 0.512-1.312 0.192t-0.544-1.28v-16.448q0-0.96 0.544-1.28t1.312 0.192z">
+        </path>
+    </svg></a> -->
+    <audio>
+    </audio>
 </body>
 
 </html>
