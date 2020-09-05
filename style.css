@@ -312,6 +312,7 @@ header{
 
 .playable path{
     fill: #ffc20e;
+    margin-left: -5px;
 }
 .each-slider-img:hover .playable{
     opacity: 1;
@@ -467,6 +468,7 @@ footer{
     z-index: 99;
     background: #fff;
     transition: all .3s ease;
+    height: 0;
 }
 
 .player-img{
