@@ -18,6 +18,7 @@ body {
 input {
     border: unset;
     outline: none;
+    width: unset;
     
 }
 
@@ -309,12 +310,37 @@ header{
     width: 36px;
     
 }
+.addFavor{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+    opacity: 0;
+
+}
+.addFavor svg{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    height: 20px;
+    width: 20px;
+}
+.changeHeartColor{
+    fill: #ffc20e;
+    transition: 0.2s;
+    cursor: pointer;
+}
 
 .playable path{
     fill: #ffc20e;
     margin-left: -5px;
 }
 .each-slider-img:hover .playable{
+    opacity: 1;
+    transition: opacity .1s,visibility .1s;
+}
+.each-slider-img:hover .addFavor{
     opacity: 1;
     transition: opacity .1s,visibility .1s;
 }
@@ -482,7 +508,7 @@ footer{
     cursor: pointer;
 }
 
-.player-play-btn{
+#player-play-btn{
     width: 26px;
     height: 26px;
     border: 2px solid #ffc20e;
@@ -498,7 +524,7 @@ footer{
     transition: all .1s ease;
 }
 
-.player-play-btn svg{
+#player-play-btn svg{
     position: absolute;
     top: 3px;
     left: 4px;
@@ -506,7 +532,7 @@ footer{
     width: 20px;
 }
 
-.player-play-btn path{
+#player-play-btn path{
     fill: #ffc20e;
 }
 
@@ -555,9 +581,9 @@ footer{
     bottom: 0;
     background: #aaa;
     height: 2px;
-    transition: all .5s ease;
+    
 }
-.player-played{
+#player-played{
     position: absolute;
     left: 0;
     top: 0;
@@ -576,7 +602,7 @@ footer{
 .player-timer-inner{
     vertical-align: middle;
 }
-.player-back-icon{
+#player-back-icon{
     cursor: pointer;
     transition: all .2s ease;
     right: 75px;
@@ -595,13 +621,13 @@ footer{
     margin: 0;
     display: inline-block;
 }
-.player-play-icon{
+#player-play-pause-icon{
     position: absolute;
     bottom: 27px;
     width: 20px;
     height: 20px;
     cursor: pointer;
-    transition: all .2s ease;
+    transition: 0.5s;
     right: 50px;
     border: none;
     background-color: transparent;
@@ -616,7 +642,7 @@ footer{
     max-height: 20px;
     
 }
-.player-forward-icon{
+#player-forward-icon{
     cursor: pointer;
     transition: all .2s ease;
     right: 25px;

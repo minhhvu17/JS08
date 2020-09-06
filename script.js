@@ -21,6 +21,9 @@ for (let i = 0; i < 5; i++) {
                     </path>
                 </svg>
             </div>
+            <div class="addFavor">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 4.248c-3.148-5.402-12-3.825-12 2.944 0 4.661 5.571 9.427 12 15.808 6.43-6.381 12-11.147 12-15.808 0-6.792-8.875-8.306-12-2.944z" class="changeHeartColor"</path></svg>
+            </div>
         </div>
         <div class="song-title">
             <div class="nameSong" style="font-size:15px">${baiHat}</div>
@@ -57,6 +60,10 @@ for (let i = 0; i < 5; i++) {
                         d="M15.552 15.168q0.448 0.32 0.448 0.832 0 0.448-0.448 0.768l-13.696 8.512q-0.768 0.512-1.312 0.192t-0.544-1.28v-16.448q0-0.96 0.544-1.28t1.312 0.192z">
                     </path>
                 </svg>
+                
+            </div>
+            <div class="addFavor">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 4.248c-3.148-5.402-12-3.825-12 2.944 0 4.661 5.571 9.427 12 15.808 6.43-6.381 12-11.147 12-15.808 0-6.792-8.875-8.306-12-2.944z" class="changeHeartColor"</path></svg>
             </div>
         </div>
         <div class="song-title">
