@@ -1,0 +1,118 @@
+.artist-info{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position:initial;
+    /* filter: blur(80px); */
+    
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    
+}
+.wrapper{
+    height: 100%;
+    
+    background-color: rgba(255,255,255,.75);
+}
+.profile-container{
+    width: 1026px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 9.5px;
+    padding-right: 9.5px;
+    position: relative;
+    
+}
+
+.row{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: -9.5px;
+    margin-right: -9.5px;
+}
+.left-row{
+    position: relative;
+    min-height: 1px;
+    padding-left: 0px;
+    padding-right: 9.5px;
+    float: left;
+    width: 58.33333%;
+}
+
+.singer-title{
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1;
+    margin-left: -3px;
+    margin-bottom: 15px;
+}
+.desc{
+    font-size: 14px;
+    line-height: 1.64;
+}
+.play-begin{
+    display: flex;
+    align-items: center;
+}
+.play-begin-btn{
+    padding: 5px 20px;
+    border-radius: 40px;
+    font-size: 12px;
+    line-height: 24px;
+    border: 0;
+    padding: 4px 12px;
+    background: linear-gradient(90deg,#ff8000, #ffc20e);
+    color: #fcfcfc;
+    text-transform: initial;
+    font-weight: bold;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.right-row{
+    padding-right: 0;
+    width: 38%;
+    position: relative;
+    min-height: 1px;
+    padding-left: 9.5px;
+    float: left;
+}
+.cover{
+    position: relative;
+    height: 260px;
+    width: 260px;
+    margin: 40px auto;
+    float: right;
+}
+.cover img{
+    width: 100%;
+    border-radius: 50%;
+    z-index: 2;
+    position: absolute;
+}
+
+.songContainer{
+    width: 1026px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 9.5px;
+    padding-right: 9.5px;
+    position: relative;
+}
+
+.hover-song{
+    position: relative;
+    width: 246px;
+    height: 210px;
+    margin-right: 30px;
+    float: left;
+}
+
+.listArtistSong{
+    
+}

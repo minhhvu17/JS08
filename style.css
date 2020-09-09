@@ -19,7 +19,15 @@ input {
     border: unset;
     outline: none;
     width: unset;
+    margin: none;
     
+}
+input[type="range" i] {
+    margin: 0;
+    height: 4px;
+    width: 1131px;
+    border-radius: 30px;
+    background-color: #222326;
 }
 
 header{
@@ -52,12 +60,14 @@ header{
     padding: 0px 20px;
     background-color: #222326;
     width: 140px;
+    
 }
 #nav_category li a{
     transition: all 0.3s ease 0s;
     background-color: #222326;
     cursor: pointer;
     text-decoration: none;
+    color: #fff;
 }
 #nav_category li a:hover{
     color: #ffc20e;
@@ -367,6 +377,7 @@ header{
     margin-top: 30px;
     border-left: 1px solid #ffc20e;
     padding-left: 10px;
+    height: 623px;
 }
 
 .artist-contain ul {
@@ -430,12 +441,14 @@ header{
 
 footer{
     clear: both;
-    
+    display: flex;
     height: 200px;
     margin-top: -200px;
     background-color: #222326;
     color: #fff;
     border-top: 2px solid #FFA500;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .footerColumn{
@@ -588,8 +601,20 @@ footer{
     left: 0;
     top: 0;
     bottom: 0;
-    height: 2px;
+    -webkit-appearance: none;
 }
+#player-played::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    
+    margin-left: 0px;
+    height: 10px;
+    width: 7px;
+    border: 0;
+    background: -webkit-linear-gradient(45deg, rgb(213, 213, 213), #ffc20e);
+    border-radius: 30px;
+    cursor: pointer;
+}
+
 .player-timer{
     position: relative;
     right: 0;
@@ -660,4 +685,10 @@ footer{
     margin: 0;
     display: inline-block;
     transform: scaleX(-1);
+}
+#exit-icon{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: -20px;
+    cursor: pointer;
 }

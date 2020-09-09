@@ -1,6 +1,7 @@
 let content = document.getElementById('each-slider');
 let content2 = document.getElementById('each-slider2');
-let content3 = document.getElementById('artistList')
+let content3 = document.getElementById('artistList');
+
 // De xuat cho ban 
 for (let i = 0; i < 5; i++) {
     let randomArtist = Math.floor(Math.random() * DATA.length);
@@ -101,6 +102,3 @@ for (let i = 0; i < 4; i++) {
 }
 
 
-// while(true){
-
-// }

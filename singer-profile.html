@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="singer-profile.css">
+    <script src="localStore.js" defer></script>
+</head>
+
+<body>
+    <header style="position:unset;">
+        <div id="nav_container">
+            <a href="" id="logo"><img src="pj-img\img-logo.png" alt=""></a>
+            <ul id="nav_category">
+
+                <li><a href="project.html" id="homepage">Trang chủ</a></li>
+                <li><a>Chủ đề</a></li>
+                <li><a href="singer.html">Ca sĩ</a></li>
+                <li><a>Playlist</a></li>
+            </ul>
+            <div id="searchBar-container">
+                <div id="searchBar">
+                    <input type="text" placeholder="Tìm kiếm..." value="" id="bar">
+                    <span style="margin-left: 10px"><img src=" pj-img\findbutton.png" alt="" id="searchBtn"></span>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <div id="artist-info-part">
+        <!-- <div class="artist-info" style="background-image: url(pj-img/artists/ngot.jpg);">
+                <div class="wrapper">
+                    <div class="profile-container">
+                        <div class="row">
+                            <div class="left-row">
+                                <div class="singer-title">Ngọt</div>
+                                <div class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error fugiat
+                                    vitae sit necessitatibus repellendus iste, doloremque, rem commodi nam sapiente fuga
+                                    sint illum accusantium veniam? Nihil quas soluta eos ut.</div>
+                                <div class="play-begin">
+                                    <a class="play-begin-btn">PHÁT NHẠC CỦA </a>
+                                </div>
+                            </div>
+                            <div class="right-row">
+                                <div class="cover">
+                                    <img src="pj-img/artists/ngot.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div> -->
+    </div>
+
+    <div>
+        <div class="songContainer">
+            <div class="row">
+                <div class="ins">
+                    <div class="hover-song"><img src="" alt=""></div>
+                    <ul class="listArtistSong">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <footer style="margin-top:unset">
+
+        <div class="footerColumn left-content-footer">
+            <a href=""><img src="pj-img/img-logo.png" alt=""></a>
+            <div id="slogan" style="font-size: 10px !important; color: #ffc20e !important;">Điểm hẹn dành cho những
+                người yêu âm nhạc</div>
+        </div>
+        <div class="footerColumn middle-content-footer">
+            <div id="footerCate">Về chúng tôi</div>
+            <div style="font-size: 13px;">Chúng tôi muốn mang đến mọi người dòng nhạc Indie - một màu sắc âm nhạc
+                mới lạ, không phổ biến nhưng dễ dàng chạm tới cảm xúc người nghe</div>
+            <div id="footerCate" style="margin-top:20px">Liên hệ với chúng tôi</div>
+            <div><svg style="color:#FFA500" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone-fill"
+                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z" />
+                </svg><span style="margin-left:5px">0123 456 789</span></div>
+            <div><img style="max-width:16px;" src="pj-img/email.png" alt=""><span
+                    style="margin-left:5px; font-size: 13px;">ngxuanminhvu17@gmail.com</span></div>
+        </div>
+
+        <div class="footerColumn right-content-footer">
+            <div id="footerCate">Cần thêm thông tin?</div>
+            <div style="font-size: 13px;">Nhập email bạn tại đây</div>
+            <input type="text" id="emailBar"><span><img style="max-width: 16px" src="pj-img/email-black.png"
+                    alt=""></span>
+        </div>
+
+
+    </footer>
+    <script>
+        let infoPart = document.getElementById('artist-info-part');
+        var characterHTML = `
+            <div class="artist-info" style="background-image: url(${localStorage.getItem('pfArtistImg')});">
+            <div class="wrapper">
+                <div class="profile-container">
+                    <div class="row">
+                        <div class="left-row">
+                            <div class="singer-title">${localStorage.getItem('pfArtistName')}</div>
+                            <div class="desc">${localStorage.getItem('pfArtistDesc')}</div>
+                            <div class="play-begin">
+                                <a style = "margin-bottom: 30px;" class="play-begin-btn">PHÁT NHẠC CỦA ${localStorage.getItem('pfArtistName').toUpperCase()}</a>
+                            </div>
+                        </div>
+                        <div class="right-row">
+                            <div class="cover">
+                                <img src="${localStorage.getItem('pfArtistImg')}" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+`
+        infoPart.insertAdjacentHTML('afterbegin', characterHTML);
+    </script>
+</body>
+
+</html>

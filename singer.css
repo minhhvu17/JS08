@@ -1,0 +1,45 @@
+#each-singer{
+    display: flex;
+    
+}
+#each-singer2{
+    display: flex;
+}
+
+.each-slider-singer{
+    width: 25%;
+    
+    padding-right: 13px;
+    position: relative;
+    background-color: transparent;
+    display: block;
+    padding-bottom: 20px;
+}
+
+.each-slider-img-singer{
+    padding-top: 100%;
+    height: auto;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    border-radius: 6px;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+.each-slider-img-singer:hover{
+    opacity: 0.9;
+    border: 2px solid #ffc20e;
+}
+
+.title span img {
+    height: 30px;
+    width: auto;
+}
+
+.column {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 30px;
+}

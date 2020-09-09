@@ -3,7 +3,7 @@ const DATA = [
         ids: 0,
         artist: 'Ngọt',
         artistImage: 'pj-img/artists/ngot.jpg',
-        description: 'Ngọt là nghệ sĩ trẻ 9X hoạt động âm nhạc độc lập (indie) nhiều năm qua giữa Hà Nội với 4 thành viên: Vũ Đinh Trọng Thắng, Nguyễn Hùng Nam Anh, Trần Bình Tuấn và Phan Việt Hoàng. Họ là một ban nhạc “đơn giản” với một trống, một guitar, một bass và một vocal (ca sĩ).',
+        description: 'Ngọt là nghệ sĩ trẻ 9X hoạt động âm nhạc độc lập (indie) nhiều năm qua giữa Hà Nội với 4 thành viên: Vũ Đinh Trọng Thắng, Nguyễn Hùng Nam Anh, Trần Bình Tuấn và Phan Việt Hoàng. Họ là một ban nhạc “đơn giản” với một trống, một guitar, một bass và một vocal (ca sĩ). Tháng 9/2015, sau gần 2 năm hoạt động, Ngọt quyết định thu âm album đầu tay. Quá trình thực hiện album đầu tay của Ngọt diễn ra trong 5 tháng. Tháng 2/2016, Ngọt chính thức hoàn thiện khâu thu âm với sự trợ giúp của những người bạn, cũng là nhà sản xuất tới từ Mỹ. Phần hậu kì của album đầu tay kéo dài trong 2 tháng với sự giúp đỡ từ các kĩ sư âm thanh ngoại quốc. Tháng 4/2016, Ngọt công bố ca khúc chính thức đầu tiên từ album, mang tên "Cho tôi đi theo".',
         song: [
             {
                 songName: 'Cho tôi lang thang',
@@ -329,7 +329,7 @@ const DATA = [
         ids: 7,
         artist: 'Pink Frog',
         artistImage: 'pj-img/artists/pinkfrog.jpg',
-        description: '',
+        description: 'Pink Frog, tên thật là Vũ Thành Lộc. Pink Frog bắt đầu chơi nhạc từ năm 2009. Bài hát đầu – Break your man được viết năm 2013. Sau một khoảng thời gian ngừng sáng tác, đến đầu năm 2017 anh bắt đầu viết trở lại, với ͞Tôi và em. Nhạc Pink Frog viết hầu hết là những suy nghĩ và tình cảm dưới góc nhìn cá nhân về tình yêu và những con người xung quanh cuộc sống thường nhật của anh. Lộc luôn mong muốn có thể đem một chút âm hưởng dân gian để hát lên những câu chuyện của mình.',
         song: [
             {
                 songName: 'Tôi và em',
@@ -403,45 +403,63 @@ const DATA = [
         ]
 
     },
-    // {
-    //     ids: 9,
-    //     artist: '',
-    //     artistImage: 'pj-img/artists/',
-    //     description: '',
-    //     song : [
-    //         {
-    //             songName: '',
-    //             songImage: '',
+    {
+        ids: 9,
+        artist: 'Chillies',
+        artistImage: 'pj-img/artists/chillies.jpg',
+        description: '',
+        song : [
+            {
+                songName: 'Có em đời bỗng vui',
+                songImage: 'pj-img/songIMG/Chillies/co_em_doi_bong_vui.jpg',
 
-    //             audio: '',
-    //         },
-    //         {
-    //             songName: '',
-    //             songImage: '',
+                audio: 'audio/Chillies/co_em_doi_bong_vui.mp3',
+            },
+            {
+                songName: 'Cứ chill thôi',
+                songImage: 'pj-img/songIMG/Chillies/cu_chill_thoi.jpg',
 
-    //             audio: '',
-    //         },
-    //         {
-    //             songName: '',
-    //             songImage: '',
+                audio: 'audio/Chillies/cu_chill_thoi.mp3',
+            },
+            {
+                songName: 'Mascara',
+                songImage: 'pj-img/songIMG/Chillies/mascara.jpg',
 
-    //             audio: '',
-    //         },
-    //         {
-    //             songName: '',
-    //             songImage: '',
+                audio: 'audio/Chillies/mascara.mp3',
+            },
+            {
+                songName: 'Nếu ngày mai không đến',
+                songImage: 'pj-img/songIMG/Chillies/neu_ngay_mai_khong_den.jpg',
 
-    //             audio: '',
-    //         },
-    //         {
-    //             songName: '',
-    //             songImage: '',
+                audio: 'audio/Chillies/neu_ngay_mai_khong_den.mp3',
+            },
+            {
+                songName: 'Những con đường song song',
+                songImage: 'pj-img/songIMG/Chillies/nhung_con_duong_song_song.jpg',
 
-    //             audio: '',
-    //         },
-    //     ]
+                audio: 'audio/Chillies/nhung_con_duong_song_song.mp3',
+            },
+            {
+                songName: 'Và thế là hết',
+                songImage: 'pj-img/songIMG/Chillies/va_the_la_het.jpg',
 
-    // },
+                audio: 'audio/Chillies/va_the_la_het.mp3',
+            },
+            {
+                songName: 'Vùng ký ức',
+                songImage: 'pj-img/songIMG/Chillies/vung_ky_uc.jpg',
+
+                audio: 'audio/Chillies/vung_ky_uc.mp3',
+            },
+            {
+                songName: 'Who?',
+                songImage: 'pj-img/songIMG/Chillies/who.jpg',
+
+                audio: 'audio/Chillies/who.mp3',
+            },
+        ]
+
+    },
     // {
     //     ids: 10,
     //     artist: '',
