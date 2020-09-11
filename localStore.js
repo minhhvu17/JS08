@@ -13,5 +13,6 @@ for (let i =0; i<10;i++){
         localStorage.setItem('pfArtistSongImg', singerSongImgList[i]);
         localStorage.setItem('pfArtistSongName', singerSongNameList[i]);
         Redirect();
+    
     })
 }
